@@ -19,14 +19,14 @@
 </head>
 <body>
 <h1>SQL Check Results</h1>
-<h2>Folder: sqlcheck_results_localhost_test_20240511_235218 </h2?>
-<h2>1. OS_Machine</h2>
+<h2>Folder: sqlcheck_results_localhost_test_20240610_193325 </h2?>
+<h2>1. OS Machine</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>host_platform</th><th>host_distribution</th><th>host_release</th><th>host_service_pack_level</th><th>host_sku</th><th>os_language_version</th><th>host_architecture</th></tr>
 <tr><td>Linux</td><td>Ubuntu</td><td>20.04</td><td></td><td></td><td>0</td><td>X64</td></tr>
 </table>
-<h2>2. SQL_Version</h2>
+<h2>2. SQL Version</h2>
 <table>
 <colgroup><col/><col/></colgroup>
 <tr><th>Server Name</th><th>SQL Server and OS Version Info</th></tr>
@@ -35,7 +35,7 @@
 <tr><td></td><td>Copyright (C) 2022 Microsoft Corporation</td></tr>
 <tr><td></td><td>Developer Edition (64-bit) on Linux (Ubuntu 20.04.6 LTS) &lt;X64&gt;&quot;</td></tr>
 </table>
-<h2>3. Cores_NumaNodes</h2>
+<h2>3. Cores NumaNodes</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>Logical CPU Count</th><th>scheduler_count</th><th>Physical Core Count</th><th>Socket Count</th><th>cores_per_socket</th><th>numa_node_count</th></tr>
@@ -48,37 +48,37 @@
 <tr><td>cost threshold for parallelism</td><td>5</td><td>5</td><td>0</td><td>32767</td><td>cost threshold for parallelism</td><td>True</td><td>True</td></tr>
 <tr><td>max degree of parallelism</td><td>0</td><td>0</td><td>0</td><td>32767</td><td>maximum degree of parallelism</td><td>True</td><td>True</td></tr>
 </table>
-<h2>5. Process_Memory</h2>
+<h2>5. Process Memory</h2>
 <table>
 <colgroup><col/><col/><col/><col/></colgroup>
 <tr><th>SQL Server Memory Usage (MB)</th><th>memory_utilization_percentage</th><th>process_physical_memory_low</th><th>process_virtual_memory_low</th></tr>
 <tr><td>4096</td><td>100</td><td>False</td><td>False</td></tr>
 </table>
-<h2>6. Memory_Details</h2>
+<h2>6. Memory Details</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>Physical Memory (MB)</th><th>Available Memory (MB)</th><th>Page File Commit Limit (MB)</th><th>Physical Page File Size (MB)</th><th>Available Page File (MB)</th><th>System Cache (MB)</th><th>System Memory State</th></tr>
-<tr><td>3132</td><td>1944</td><td>3132</td><td>0</td><td>1944</td><td>0</td><td>Available physical memory is high</td></tr>
+<tr><td>3132</td><td>1936</td><td>3132</td><td>0</td><td>1936</td><td>0</td><td>Available physical memory is high</td></tr>
 </table>
-<h2>7. File_Latency</h2>
+<h2>7. File Latency</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>Database Name</th><th>avg_read_latency_ms</th><th>avg_write_latency_ms</th><th>avg_io_latency_ms</th><th>File Size (MB)</th><th>physical_name</th><th>type_desc</th><th>io_stall_read_ms</th><th>num_of_reads</th><th>io_stall_write_ms</th><th>num_of_writes</th><th>io_stalls</th><th>total_io</th><th>Resource Governor Total Read IO Latency (ms)</th><th>Resource Governor Total Write IO Latency (ms)</th></tr>
-<tr><td>model</td><td>12.5</td><td>0.0</td><td>12.2</td><td>8.00</td><td>/var/opt/mssql/data/model.mdf</td><td>ROWS</td><td>438</td><td>34</td><td>0</td><td>1</td><td>438</td><td>35</td><td>0</td><td>0</td></tr>
-<tr><td>tempdb</td><td>2.3</td><td>8.9</td><td>7.1</td><td>8.00</td><td>/var/opt/mssql/data/templog.ldf</td><td>LOG</td><td>18</td><td>7</td><td>160</td><td>17</td><td>178</td><td>24</td><td>0</td><td>0</td></tr>
-<tr><td>master</td><td>1.4</td><td>4.5</td><td>4.0</td><td>2.00</td><td>/var/opt/mssql/data/mastlog.ldf</td><td>LOG</td><td>20</td><td>13</td><td>303</td><td>67</td><td>323</td><td>80</td><td>0</td><td>0</td></tr>
-<tr><td>mlflow</td><td>9.3</td><td>2.4</td><td>3.8</td><td>8.00</td><td>/var/opt/mssql/data/mlflow_log.ldf</td><td>LOG</td><td>84</td><td>8</td><td>93</td><td>37</td><td>177</td><td>45</td><td>0</td><td>0</td></tr>
-<tr><td>master</td><td>3.6</td><td>1.2</td><td>3.0</td><td>4.69</td><td>/var/opt/mssql/data/master.mdf</td><td>ROWS</td><td>280</td><td>77</td><td>33</td><td>26</td><td>313</td><td>103</td><td>0</td><td>0</td></tr>
-<tr><td>test</td><td>3.8</td><td>2.2</td><td>2.5</td><td>8.00</td><td>/var/opt/mssql/data/test_log.ldf</td><td>LOG</td><td>92</td><td>23</td><td>271</td><td>121</td><td>363</td><td>144</td><td>0</td><td>0</td></tr>
-<tr><td>msdb</td><td>2.5</td><td>0.0</td><td>2.5</td><td>15.31</td><td>/var/opt/mssql/data/MSDBData.mdf</td><td>ROWS</td><td>225</td><td>89</td><td>0</td><td>1</td><td>225</td><td>90</td><td>0</td><td>0</td></tr>
-<tr><td>model</td><td>2.5</td><td>1.8</td><td>2.4</td><td>8.00</td><td>/var/opt/mssql/data/modellog.ldf</td><td>LOG</td><td>20</td><td>7</td><td>9</td><td>4</td><td>29</td><td>11</td><td>0</td><td>0</td></tr>
-<tr><td>tempdb</td><td>1.4</td><td>0.6</td><td>1.4</td><td>8.00</td><td>/var/opt/mssql/data/tempdb.mdf</td><td>ROWS</td><td>49</td><td>33</td><td>3</td><td>4</td><td>52</td><td>37</td><td>0</td><td>0</td></tr>
-<tr><td>mlflow</td><td>1.4</td><td>0.0</td><td>1.3</td><td>8.00</td><td>/var/opt/mssql/data/mlflow.mdf</td><td>ROWS</td><td>101</td><td>73</td><td>0</td><td>1</td><td>101</td><td>74</td><td>0</td><td>0</td></tr>
-<tr><td>test</td><td>1.3</td><td>0.3</td><td>1.3</td><td>8.00</td><td>/var/opt/mssql/data/test.mdf</td><td>ROWS</td><td>255</td><td>190</td><td>1</td><td>2</td><td>256</td><td>192</td><td>0</td><td>0</td></tr>
-<tr><td>msdb</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.25</td><td>/var/opt/mssql/data/MSDBLog.ldf</td><td>LOG</td><td>11</td><td>10</td><td>19</td><td>19</td><td>30</td><td>29</td><td>0</td><td>0</td></tr>
+<tr><td>master</td><td>4.9</td><td>1.0</td><td>4.8</td><td>4.69</td><td>/var/opt/mssql/data/master.mdf</td><td>ROWS</td><td>278</td><td>56</td><td>3</td><td>2</td><td>281</td><td>58</td><td>0</td><td>0</td></tr>
+<tr><td>model</td><td>5.0</td><td>1.4</td><td>3.3</td><td>8.00</td><td>/var/opt/mssql/data/modellog.ldf</td><td>LOG</td><td>40</td><td>7</td><td>13</td><td>8</td><td>53</td><td>15</td><td>0</td><td>0</td></tr>
+<tr><td>msdb</td><td>2.1</td><td>0.0</td><td>2.1</td><td>15.31</td><td>/var/opt/mssql/data/MSDBData.mdf</td><td>ROWS</td><td>157</td><td>73</td><td>0</td><td>1</td><td>157</td><td>74</td><td>0</td><td>0</td></tr>
+<tr><td>msdb</td><td>2.3</td><td>0.8</td><td>1.9</td><td>1.25</td><td>/var/opt/mssql/data/MSDBLog.ldf</td><td>LOG</td><td>23</td><td>9</td><td>5</td><td>5</td><td>28</td><td>14</td><td>0</td><td>0</td></tr>
+<tr><td>test</td><td>1.9</td><td>0.0</td><td>1.9</td><td>8.00</td><td>/var/opt/mssql/data/test.mdf</td><td>ROWS</td><td>127</td><td>66</td><td>0</td><td>1</td><td>127</td><td>67</td><td>0</td><td>0</td></tr>
+<tr><td>tempdb</td><td>0.8</td><td>2.3</td><td>1.9</td><td>8.00</td><td>/var/opt/mssql/data/templog.ldf</td><td>LOG</td><td>6</td><td>7</td><td>41</td><td>17</td><td>47</td><td>24</td><td>0</td><td>0</td></tr>
+<tr><td>master</td><td>0.8</td><td>2.1</td><td>1.8</td><td>2.00</td><td>/var/opt/mssql/data/mastlog.ldf</td><td>LOG</td><td>10</td><td>12</td><td>81</td><td>37</td><td>91</td><td>49</td><td>0</td><td>0</td></tr>
+<tr><td>model</td><td>1.7</td><td>0.3</td><td>1.6</td><td>8.00</td><td>/var/opt/mssql/data/model.mdf</td><td>ROWS</td><td>58</td><td>34</td><td>1</td><td>2</td><td>59</td><td>36</td><td>0</td><td>0</td></tr>
+<tr><td>mlflow</td><td>1.5</td><td>0.0</td><td>1.4</td><td>8.00</td><td>/var/opt/mssql/data/mlflow.mdf</td><td>ROWS</td><td>96</td><td>65</td><td>0</td><td>1</td><td>96</td><td>66</td><td>0</td><td>0</td></tr>
+<tr><td>mlflow</td><td>2.6</td><td>1.0</td><td>1.4</td><td>8.00</td><td>/var/opt/mssql/data/mlflow_log.ldf</td><td>LOG</td><td>23</td><td>8</td><td>34</td><td>32</td><td>57</td><td>40</td><td>0</td><td>0</td></tr>
+<tr><td>test</td><td>2.8</td><td>0.9</td><td>1.1</td><td>8.00</td><td>/var/opt/mssql/data/test_log.ldf</td><td>LOG</td><td>25</td><td>8</td><td>72</td><td>78</td><td>97</td><td>86</td><td>0</td><td>0</td></tr>
+<tr><td>tempdb</td><td>0.9</td><td>0.4</td><td>0.9</td><td>8.00</td><td>/var/opt/mssql/data/tempdb.mdf</td><td>ROWS</td><td>32</td><td>33</td><td>2</td><td>4</td><td>34</td><td>37</td><td>0</td><td>0</td></tr>
 <tr><td>tempdb</td><td>1.0</td><td>0.0</td><td>0.8</td><td>8.00</td><td>/var/opt/mssql/data/tempdb2.ndf</td><td>ROWS</td><td>5</td><td>4</td><td>0</td><td>1</td><td>5</td><td>5</td><td>0</td><td>0</td></tr>
 </table>
-<h2>8. File_Autogrowth_Options</h2>
+<h2>8. File Autogrowth_Options</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>Database Name</th><th>file_id</th><th>name</th><th>physical_name</th><th>type_desc</th><th>state_desc</th><th>is_percent_growth</th><th>growth</th><th>Growth in MB</th><th>Total Size in MB</th><th>max_size</th></tr>
@@ -100,9 +100,9 @@
 <table>
 <colgroup><col/><col/><col/></colgroup>
 <tr><th>LogDate</th><th>ProcessInfo</th><th>Text</th></tr>
-<tr><td>5/11/2024 9:29:26 PM</td><td>spid26s</td><td>The tempdb database has 2 data file(s).</td></tr>
+<tr><td>6/10/2024 10:03:16 PM</td><td>spid26s</td><td>The tempdb database has 2 data file(s).</td></tr>
 </table>
-<h2>10. Auto_Create_Stats</h2>
+<h2>10. Auto Create_Stats</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/></colgroup>
 <tr><th>Database Name</th><th>is_auto_create_stats_on</th><th>is_auto_update_stats_on</th><th>is_auto_update_stats_async_on</th><th>is_auto_shrink_on</th></tr>
@@ -113,37 +113,34 @@
 <tr><td>test</td><td>True</td><td>True</td><td>False</td><td>False</td></tr>
 <tr><td>mlflow</td><td>True</td><td>True</td><td>False</td><td>False</td></tr>
 </table>
-<h2>11. Stats_Updates</h2>
+<h2>11. Stats Updates</h2>
 <table>
 </table>
-<h2>12. Automatic_Tuning_Options</h2>
+<h2>12. Automatic Tuning_Options</h2>
 <table>
 <colgroup><col/><col/><col/><col/></colgroup>
 <tr><th>name</th><th>desired_state_desc</th><th>actual_state_desc</th><th>reason_desc</th></tr>
 <tr><td>FORCE_LAST_GOOD_PLAN</td><td>DEFAULT</td><td>OFF</td><td>AUTO_CONFIGURED</td></tr>
 </table>
-<h2>13. Recent_Full_Backups</h2>
+<h2>13. Recent Full Backups</h2>
 <table>
 </table>
-<h2>14. Top_Waits</h2>
+<h2>14. Top Waits</h2>
 <table>
 <colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
 <tr><th>WaitType</th><th>Wait Percentage</th><th>AvgWait_Sec</th><th>AvgRes_Sec</th><th>AvgSig_Sec</th><th>Wait_Sec</th><th>Resource_Sec</th><th>Signal_Sec</th><th>Wait Count</th><th>Help/Info URL</th></tr>
-<tr><td>AZURE_IMDS_VERSIONS</td><td>42.39</td><td>61.0460</td><td>61.0460</td><td>0.0000</td><td>61.05</td><td>61.05</td><td>0.00</td><td>1</td><td>https://www.sqlskills.com/help/waits/AZURE_IMDS_VERSIONS</td></tr>
-<tr><td>THREADPOOL</td><td>21.51</td><td>0.3824</td><td>0.3824</td><td>0.0000</td><td>30.97</td><td>30.97</td><td>0.00</td><td>81</td><td>https://www.sqlskills.com/help/waits/THREADPOOL</td></tr>
-<tr><td>SOS_SCHEDULER_YIELD</td><td>20.07</td><td>0.0028</td><td>0.0000</td><td>0.0027</td><td>28.90</td><td>0.15</td><td>28.75</td><td>10464</td><td>https://www.sqlskills.com/help/waits/SOS_SCHEDULER_YIELD</td></tr>
-<tr><td>LCK_M_U</td><td>4.07</td><td>0.8369</td><td>0.8336</td><td>0.0033</td><td>5.86</td><td>5.84</td><td>0.02</td><td>7</td><td>https://www.sqlskills.com/help/waits/LCK_M_U</td></tr>
-<tr><td>MSQL_XP</td><td>3.32</td><td>0.1448</td><td>0.1448</td><td>0.0000</td><td>4.78</td><td>4.78</td><td>0.00</td><td>33</td><td>https://www.sqlskills.com/help/waits/MSQL_XP</td></tr>
-<tr><td>LCK_M_S</td><td>1.83</td><td>0.6580</td><td>0.6563</td><td>0.0018</td><td>2.63</td><td>2.63</td><td>0.01</td><td>4</td><td>https://www.sqlskills.com/help/waits/LCK_M_S</td></tr>
-<tr><td>PREEMPTIVE_OS_FLUSHFILEBUFFERS</td><td>1.40</td><td>0.0035</td><td>0.0035</td><td>0.0000</td><td>2.01</td><td>2.01</td><td>0.00</td><td>570</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_OS_FLUSHFILEBUFFERS</td></tr>
-<tr><td>WRITELOG</td><td>1.10</td><td>0.0041</td><td>0.0030</td><td>0.0012</td><td>1.59</td><td>1.14</td><td>0.45</td><td>384</td><td>https://www.sqlskills.com/help/waits/WRITELOG</td></tr>
-<tr><td>SLEEP_PHYSMASTERDBREADY</td><td>0.92</td><td>1.3210</td><td>1.3210</td><td>0.0000</td><td>1.32</td><td>1.32</td><td>0.00</td><td>1</td><td>https://www.sqlskills.com/help/waits/SLEEP_PHYSMASTERDBREADY</td></tr>
-<tr><td>PREEMPTIVE_OS_CLOSEHANDLE</td><td>0.73</td><td>0.0106</td><td>0.0106</td><td>0.0000</td><td>1.06</td><td>1.06</td><td>0.00</td><td>100</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_OS_CLOSEHANDLE</td></tr>
-<tr><td>ASYNC_IO_COMPLETION</td><td>0.54</td><td>0.3885</td><td>0.3885</td><td>0.0000</td><td>0.78</td><td>0.78</td><td>0.00</td><td>2</td><td>https://www.sqlskills.com/help/waits/ASYNC_IO_COMPLETION</td></tr>
-<tr><td>PREEMPTIVE_OS_LOADLIBRARY</td><td>0.42</td><td>0.3055</td><td>0.3055</td><td>0.0000</td><td>0.61</td><td>0.61</td><td>0.00</td><td>2</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_OS_LOADLIBRARY</td></tr>
-<tr><td>PREEMPTIVE_FILESIZEGET</td><td>0.29</td><td>0.0106</td><td>0.0106</td><td>0.0000</td><td>0.42</td><td>0.42</td><td>0.00</td><td>39</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_FILESIZEGET</td></tr>
-<tr><td>SNI_TASK_COMPLETION</td><td>0.25</td><td>0.3580</td><td>0.3580</td><td>0.0000</td><td>0.36</td><td>0.36</td><td>0.00</td><td>1</td><td>https://www.sqlskills.com/help/waits/SNI_TASK_COMPLETION</td></tr>
-<tr><td>WAIT_ON_SYNC_STATISTICS_REFRESH</td><td>0.25</td><td>0.0142</td><td>0.0142</td><td>0.0000</td><td>0.35</td><td>0.35</td><td>0.00</td><td>25</td><td>https://www.sqlskills.com/help/waits/WAIT_ON_SYNC_STATISTICS_REFRESH</td></tr>
+<tr><td>AZURE_IMDS_VERSIONS</td><td>54.09</td><td>61.0670</td><td>61.0670</td><td>0.0000</td><td>61.07</td><td>61.07</td><td>0.00</td><td>1</td><td>https://www.sqlskills.com/help/waits/AZURE_IMDS_VERSIONS</td></tr>
+<tr><td>SOS_SCHEDULER_YIELD</td><td>19.61</td><td>0.0072</td><td>0.0000</td><td>0.0072</td><td>22.14</td><td>0.02</td><td>22.13</td><td>3074</td><td>https://www.sqlskills.com/help/waits/SOS_SCHEDULER_YIELD</td></tr>
+<tr><td>THREADPOOL</td><td>15.04</td><td>0.2784</td><td>0.2784</td><td>0.0000</td><td>16.98</td><td>16.98</td><td>0.00</td><td>61</td><td>https://www.sqlskills.com/help/waits/THREADPOOL</td></tr>
+<tr><td>LCK_M_S</td><td>3.06</td><td>0.6904</td><td>0.6812</td><td>0.0092</td><td>3.45</td><td>3.41</td><td>0.05</td><td>5</td><td>https://www.sqlskills.com/help/waits/LCK_M_S</td></tr>
+<tr><td>LCK_M_U</td><td>2.73</td><td>0.4399</td><td>0.4339</td><td>0.0060</td><td>3.08</td><td>3.04</td><td>0.04</td><td>7</td><td>https://www.sqlskills.com/help/waits/LCK_M_U</td></tr>
+<tr><td>PREEMPTIVE_OS_FLUSHFILEBUFFERS</td><td>1.10</td><td>0.0026</td><td>0.0026</td><td>0.0000</td><td>1.24</td><td>1.24</td><td>0.00</td><td>481</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_OS_FLUSHFILEBUFFERS</td></tr>
+<tr><td>SLEEP_PHYSMASTERDBREADY</td><td>0.93</td><td>1.0550</td><td>1.0530</td><td>0.0020</td><td>1.06</td><td>1.05</td><td>0.00</td><td>1</td><td>https://www.sqlskills.com/help/waits/SLEEP_PHYSMASTERDBREADY</td></tr>
+<tr><td>MSQL_XP</td><td>0.71</td><td>0.1604</td><td>0.1604</td><td>0.0000</td><td>0.80</td><td>0.80</td><td>0.00</td><td>5</td><td>https://www.sqlskills.com/help/waits/MSQL_XP</td></tr>
+<tr><td>ASYNC_IO_COMPLETION</td><td>0.64</td><td>0.3610</td><td>0.3505</td><td>0.0105</td><td>0.72</td><td>0.70</td><td>0.02</td><td>2</td><td>https://www.sqlskills.com/help/waits/ASYNC_IO_COMPLETION</td></tr>
+<tr><td>WRITELOG</td><td>0.47</td><td>0.0017</td><td>0.0013</td><td>0.0004</td><td>0.53</td><td>0.41</td><td>0.12</td><td>304</td><td>https://www.sqlskills.com/help/waits/WRITELOG</td></tr>
+<tr><td>CMEMTHREAD</td><td>0.43</td><td>0.0544</td><td>0.0483</td><td>0.0061</td><td>0.49</td><td>0.44</td><td>0.06</td><td>9</td><td>https://www.sqlskills.com/help/waits/CMEMTHREAD</td></tr>
+<tr><td>PREEMPTIVE_OS_CREATEFILE</td><td>0.24</td><td>0.0046</td><td>0.0046</td><td>0.0000</td><td>0.27</td><td>0.27</td><td>0.00</td><td>60</td><td>https://www.sqlskills.com/help/waits/PREEMPTIVE_OS_CREATEFILE</td></tr>
 </table>
 </body>
 </html>
