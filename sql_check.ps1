@@ -71,20 +71,20 @@ if (-not (Test-Path -Path $resultsFolderPath)) {
 # Define the query categories and corresponding functions
 
 $queries = [ordered]@{
-    "OS_Machine" = "Get-OSMachine"
-    "SQL_Version" = "Get-SQLVersion"
-    "Cores_NumaNodes" = "Get-CoresNumaNodes"
+    "OS Machine" = "Get-OSMachine"
+    "SQL Version" = "Get-SQLVersion"
+    "Cores NumaNodes" = "Get-CoresNumaNodes"
     "Parallelism" = "Get-Parallelism"
-    "Process_Memory" = "Get-ProcessMemory"
-    "Memory_Details" = "Get-MemoryDetails"
-    "File_Latency" = "Get-FileLatency"
-    "File_Autogrowth_Options" = "Get-AutoGrowth"
+    "Process Memory" = "Get-ProcessMemory"
+    "Memory Details" = "Get-MemoryDetails"
+    "File Latency" = "Get-FileLatency"
+    "File Autogrowth_Options" = "Get-AutoGrowth"
     "tempdb" = "Get-tempdb"
-    "Auto_Create_Stats" = "Get-AutoCreateStats"
-    "Stats_Updates" = "Get-StatsUpdates"
-    "Automatic_Tuning_Options" = "Get-AutomaticTuningOptions"
-    "Recent_Full_Backups" = "Get-RecentFullBackups"
-    "Top_Waits" = "Get-TopWaits"
+    "Auto Create Stats" = "Get-AutoCreateStats"
+    "Stats Updates" = "Get-StatsUpdates"
+    "Automatic Tuning Options" = "Get-AutomaticTuningOptions"
+    "Recent Full Backups" = "Get-RecentFullBackups"
+    "Top Waits" = "Get-TopWaits"
     # Add more query categories and functions as needed
 }
 
